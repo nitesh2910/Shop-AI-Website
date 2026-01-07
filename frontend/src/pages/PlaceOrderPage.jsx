@@ -69,7 +69,7 @@ const PlaceOrderPage = () => {
                                 {cartItems.map((item, index) => (
                                     <div key={index} className="flex items-center pb-4 border-b">
                                         <img
-                                            src={item.image ? `http://localhost:9090${item.image}` : 'https://via.placeholder.com/50'}
+                                            src={item.image ? `${(import.meta.env.VITE_API_URL || 'http://localhost:9090').replace('/api', '')}${item.image}` : 'https://via.placeholder.com/50'}
                                             alt={item.name}
                                             className="h-12 w-12 rounded object-cover mr-4"
                                         />

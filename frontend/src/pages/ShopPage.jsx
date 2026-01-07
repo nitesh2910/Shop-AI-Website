@@ -35,7 +35,7 @@ const ShopPage = () => {
                             <Link key={product._id} to={`/product/${product._id}`} className="group">
                                 <div className="w-full aspect-[3/4] bg-white rounded-lg overflow-hidden">
                                     <img
-                                        src={product.image ? (product.image.startsWith('http') ? product.image : `http://localhost:9090${product.image}`) : 'https://via.placeholder.com/300'}
+                                        src={product.image ? (product.image.startsWith('http') ? product.image : `${(import.meta.env.VITE_API_URL || 'http://localhost:9090').replace('/api', '')}${product.image}`) : 'https://via.placeholder.com/300'}
                                         alt={product.name}
                                         className="w-full h-full object-center object-cover group-hover:opacity-75"
                                     />

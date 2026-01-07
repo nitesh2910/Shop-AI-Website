@@ -10,7 +10,8 @@ const ProductCard = ({ product }) => {
     const getImageSrc = (image) => {
         if (!image) return 'https://via.placeholder.com/300';
         if (image.startsWith('http')) return image;
-        return `http://localhost:9090${image}`;
+        const baseUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace('/api', '') : 'http://localhost:9090';
+        return `${baseUrl}${image}`;
     };
 
     return (
