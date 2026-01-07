@@ -1,0 +1,36 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/images/
+!static/images/headphones_ai.png
+!static/images/smartwatch_ai.png
+!static/images/speaker_ai.png
+!static/images/jacket_ai.png
+!static/images/tshirt_ai.png
+
+# React / Node
+node_modules/
+dist/
+dist-ssr
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
