@@ -158,6 +158,9 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 # Whitenoise storage for production
 if not DEBUG:
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    # Optional: If you want whitenoise to handle media files (images) too
+    # Note: Usually better to use S3/Cloudinary, but for small projects:
+    WHITENOISE_INDEX_FILE = True
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
