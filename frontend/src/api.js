@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const getBaseURL = () => {
-    const url = import.meta.env.VITE_API_URL || 'http://localhost:9090/api';
+    let url = import.meta.env.VITE_API_URL || 'http://localhost:9090/api';
+    // Remove trailing slashes
+    url = url.replace(/\/+$/, '');
     return url.endsWith('/api') ? url : `${url}/api`;
 };
 
