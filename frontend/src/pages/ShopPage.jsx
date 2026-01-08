@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import api from '../api';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
+import CategoryNav from '../components/CategoryNav';
 
 const ShopPage = () => {
     const [products, setProducts] = useState([]);
@@ -26,6 +27,7 @@ const ShopPage = () => {
 
     return (
         <div className="bg-white min-h-screen">
+            <CategoryNav />
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 <h1 className="text-3xl font-extrabold text-gray-900 mb-8">Shop All Products</h1>
                 {loading ? (
