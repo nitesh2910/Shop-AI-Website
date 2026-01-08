@@ -1,18 +1,12 @@
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
-import { ShoppingCart, Eye } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
 import { useContext } from 'react';
 import CartContext from '../context/CartContext';
+import { getImageSrc } from '../utils';
 
 const ProductCard = ({ product }) => {
     const { addToCart } = useContext(CartContext);
-
-    const getImageSrc = (image) => {
-        if (!image) return 'https://via.placeholder.com/300';
-        if (image.startsWith('http')) return image;
-        const baseUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace('/api', '') : 'http://localhost:9090';
-        return `${baseUrl}${image}`;
-    };
 
     return (
         <div className="group relative bg-white rounded-2xl border border-gray-100 p-3 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300">

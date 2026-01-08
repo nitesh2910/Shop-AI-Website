@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import CartContext from '../context/CartContext';
 import CheckoutSteps from '../components/CheckoutSteps';
 import api from '../api';
+import { getImageSrc } from '../utils';
 
 const PlaceOrderPage = () => {
     const { cartItems, shippingAddress, paymentMethod, clearCart } = useContext(CartContext);
@@ -69,7 +70,7 @@ const PlaceOrderPage = () => {
                                 {cartItems.map((item, index) => (
                                     <div key={index} className="flex items-center pb-4 border-b">
                                         <img
-                                            src={item.image ? `${(import.meta.env.VITE_API_URL || 'http://localhost:9090').replace('/api', '')}${item.image}` : 'https://via.placeholder.com/50'}
+                                            src={getImageSrc(item.image)}
                                             alt={item.name}
                                             className="h-12 w-12 rounded object-cover mr-4"
                                         />

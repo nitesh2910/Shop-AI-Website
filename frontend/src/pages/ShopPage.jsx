@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import api from '../api';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import ProductCard from '../components/ProductCard';
 
 const ShopPage = () => {
     const [products, setProducts] = useState([]);
@@ -32,17 +33,7 @@ const ShopPage = () => {
                 ) : (
                     <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                         {products.map((product) => (
-                            <Link key={product._id} to={`/product/${product._id}`} className="group">
-                                <div className="w-full aspect-[3/4] bg-white rounded-lg overflow-hidden">
-                                    <img
-                                        src={product.image ? (product.image.startsWith('http') ? product.image : `${(import.meta.env.VITE_API_URL || 'http://localhost:9090').replace('/api', '')}${product.image}`) : 'https://via.placeholder.com/300'}
-                                        alt={product.name}
-                                        className="w-full h-full object-center object-cover group-hover:opacity-75"
-                                    />
-                                </div>
-                                <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-                                <p className="mt-1 text-lg font-medium text-gray-900">${product.price}</p>
-                            </Link>
+                            <ProductCard key={product._id} product={product} />
                         ))}
                     </div>
                 )}

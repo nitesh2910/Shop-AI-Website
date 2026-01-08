@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import CartContext from '../context/CartContext';
 import AuthContext from '../context/AuthContext';
 import { Trash } from 'lucide-react';
+import { getImageSrc } from '../utils';
 
 const CartPage = () => {
     const { cartItems, removeFromCart, updateCartQty } = useContext(CartContext);
@@ -33,7 +34,7 @@ const CartPage = () => {
                                 <div key={item.product} className="flex py-6 border-b border-gray-200">
                                     <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                                         <img
-                                            src={item.image ? `${(import.meta.env.VITE_API_URL || 'http://localhost:9090').replace('/api', '')}${item.image}` : 'https://via.placeholder.com/150'}
+                                            src={getImageSrc(item.image)}
                                             alt={item.name}
                                             className="h-full w-full object-cover object-center"
                                         />
