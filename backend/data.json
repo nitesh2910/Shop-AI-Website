@@ -1,1 +1,913 @@
-﻿[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2026-01-05T11:11:35.778Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Kurtis", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2026-01-05T11:12:10.466Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Kurtis", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2026-01-06T06:55:15.842Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Dupatta", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2026-01-06T06:57:05.304Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "Dupattas", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2026-01-06T07:06:22.116Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "Dupattas", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2026-01-06T07:06:32.977Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "Dupattas-1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2026-01-06T07:07:26.475Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "Cotton Suit with Dupatta", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2026-01-06T07:07:56.565Z", "user": 1, "content_type": 9, "object_id": "5", "object_repr": "Floral Cotton Kurti", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2026-01-06T07:08:36.591Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "Floral Cotton Kurti-1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2026-01-06T07:09:13.450Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "Printed Cotton Suit with Dupatta", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2026-01-06T07:09:19.869Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "Printed Cotton Suit with Dupatta", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"CountInStock\"]}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2026-01-06T07:10:11.325Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "Printed Cotton Suit with Dupatta 01", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2026-01-06T07:11:00.360Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Kurtis", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2026-01-07T04:41:23.962Z", "user": 1, "content_type": 10, "object_id": "1", "object_repr": "Kurtis", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2026-01-07T04:41:35.616Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "2026-01-07 04:40:56.705223+00:00", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2026-01-07T04:41:39.955Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "2026-01-07 04:39:52.615976+00:00", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2026-01-07T05:28:02.220Z", "user": 1, "content_type": 9, "object_id": "12", "object_repr": "Classic Denim Jacket", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2026-01-07T05:33:56.810Z", "user": 1, "content_type": 9, "object_id": "19", "object_repr": "Scented Soy Wax Candle", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2026-01-07T05:34:51.296Z", "user": 1, "content_type": 9, "object_id": "18", "object_repr": "Modern Ceramic Vase", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2026-01-07T05:42:10.924Z", "user": 1, "content_type": 9, "object_id": "15", "object_repr": "Lightweight Running Shoes", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2026-01-07T05:42:18.843Z", "user": 1, "content_type": 9, "object_id": "16", "object_repr": "Leather Minimalist Wallet", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2026-01-07T05:42:28.583Z", "user": 1, "content_type": 9, "object_id": "19", "object_repr": "Scented Soy Wax Candle", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2026-01-07T05:43:02.894Z", "user": 1, "content_type": 9, "object_id": "18", "object_repr": "Modern Ceramic Vase", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2026-01-07T05:43:17.244Z", "user": 1, "content_type": 9, "object_id": "15", "object_repr": "Lightweight Running Shoes", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2026-01-07T05:53:29.633Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "Floral Cotton Kurti-1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2026-01-07T05:53:49.083Z", "user": 1, "content_type": 9, "object_id": "15", "object_repr": "Lightweight Running Shoes", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2026-01-07T05:54:58.275Z", "user": 1, "content_type": 9, "object_id": "16", "object_repr": "Leather Minimalist Wallet", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2026-01-07T05:55:23.956Z", "user": 1, "content_type": 9, "object_id": "18", "object_repr": "Modern Ceramic Vase", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2026-01-07T05:55:32.087Z", "user": 1, "content_type": 9, "object_id": "19", "object_repr": "Scented Soy Wax Candle", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2026-01-07T06:03:29.001Z", "user": 1, "content_type": 9, "object_id": "14", "object_repr": "Retro High-Top Sneakers", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2026-01-07T06:04:03.586Z", "user": 1, "content_type": 9, "object_id": "14", "object_repr": "Retro High-Top Sneakers", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2026-01-07T06:04:34.345Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "Floral Cotton Kurti-1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$1000000$vTZtHIjEaMx59IIYl7CKUX$XBg99hbArs+ML4wmjbGMx4pBf8HGT45V5B8XpHx+TBQ=", "last_login": "2026-01-02T07:20:57.154Z", "is_superuser": true, "username": "admin@123", "first_name": "", "last_name": "", "email": "admin@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2026-01-02T07:20:40.926Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$1000000$i7NbFy8h9442183LsObLUq$efl75Rlir88bP/5CEi469YcV8bVh5GBN+Cmamjo1dAo=", "last_login": null, "is_superuser": false, "username": "goadnitesh4813@gmail.com", "first_name": "Nitesh", "last_name": "", "email": "goadnitesh4813@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2026-01-06T07:21:52.133Z", "groups": [], "user_permissions": []}}, {"model": "sessions.session", "pk": "qawzb2ii7brwkgzidk2uu4k296acywe4", "fields": {"session_data": ".eJxVjEEOwiAQAP_C2RChWxY8eu8byMKCVA1NSnsy_l1JetDrzGRewtO-Fb-3tPqZxUUocfplgeIj1S74TvW2yLjUbZ2D7Ik8bJPTwul5Pdq_QaFW-jY6l8eE4EAb0NkaVHjWaCMygtUWlCamwTjDEcZvMVh0yMFSzuC0eH8ArNE2tQ:1vbZSz:tOnfLj74uVC2m6k2o2OD42ZW_j08ytC-a4JjR-BiCAU", "expire_date": "2026-01-16T07:20:57.169Z"}}, {"model": "api.category", "pk": 1, "fields": {"name": "Kurtis", "slug": "floral-cotton-kurti"}}, {"model": "api.category", "pk": 2, "fields": {"name": "Dupatta", "slug": ""}}, {"model": "api.category", "pk": 3, "fields": {"name": "Electronics", "slug": "electronics"}}, {"model": "api.category", "pk": 4, "fields": {"name": "Fashion", "slug": "fashion"}}, {"model": "api.category", "pk": 5, "fields": {"name": "Sneakers", "slug": "sneakers"}}, {"model": "api.category", "pk": 6, "fields": {"name": "Accessories", "slug": "accessories"}}, {"model": "api.category", "pk": 7, "fields": {"name": "Home Decor", "slug": "home-decor"}}, {"model": "api.product", "pk": 1, "fields": {"user": 1, "name": "Kurtis", "image": "img-2.jpg", "brand": null, "category": 1, "description": "test", "rating": "8.00", "numReviews": 10, "price": "120.00", "countInStock": 6, "createdAt": "2026-01-05T11:12:10.462Z"}}, {"model": "api.product", "pk": 2, "fields": {"user": 1, "name": "Dupattas", "image": "Chiffon_Dupatta__White.jpg", "brand": null, "category": 2, "description": "TEsting", "rating": "8.00", "numReviews": 0, "price": "120.00", "countInStock": 0, "createdAt": "2026-01-06T06:57:05.301Z"}}, {"model": "api.product", "pk": 3, "fields": {"user": 1, "name": "Dupattas-1", "image": "Unstitched_Cotton_Dress_Material__Indigo.jpg", "brand": null, "category": 2, "description": "Testing", "rating": "8.00", "numReviews": 0, "price": "240.00", "countInStock": 0, "createdAt": "2026-01-06T07:06:22.112Z"}}, {"model": "api.product", "pk": 4, "fields": {"user": 1, "name": "Cotton Suit with Dupatta", "image": "Cotton_Suit_with_Dupatta.jpg", "brand": null, "category": 2, "description": "Testing", "rating": "5.00", "numReviews": 0, "price": "130.00", "countInStock": 20, "createdAt": "2026-01-06T07:07:26.472Z"}}, {"model": "api.product", "pk": 5, "fields": {"user": 1, "name": "Floral Cotton Kurti", "image": "Floral_Cotton_Kurti.jpg", "brand": null, "category": 1, "description": "Testing", "rating": "5.00", "numReviews": 5, "price": "340.00", "countInStock": 6, "createdAt": "2026-01-06T07:07:56.562Z"}}, {"model": "api.product", "pk": 6, "fields": {"user": 1, "name": "Floral Cotton Kurti-1", "image": "img-1_U7KAdoi.jpg", "brand": null, "category": 1, "description": "Testing", "rating": "5.00", "numReviews": 0, "price": "340.00", "countInStock": 0, "createdAt": "2026-01-06T07:08:36.587Z"}}, {"model": "api.product", "pk": 7, "fields": {"user": 1, "name": "Printed Cotton Suit with Dupatta", "image": "Printed_Cotton_Suit_with_Dupatta.jpg", "brand": null, "category": 2, "description": "Printed Cotton Suit with Dupatta", "rating": "5.00", "numReviews": 5, "price": "300.00", "countInStock": 10, "createdAt": "2026-01-06T07:09:13.447Z"}}, {"model": "api.product", "pk": 8, "fields": {"user": 1, "name": "Printed Cotton Suit with Dupatta 01", "image": "img-3.jpg", "brand": null, "category": 2, "description": "Printed Cotton Suit with Dupatta -1", "rating": "5.00", "numReviews": 0, "price": "300.00", "countInStock": 10, "createdAt": "2026-01-06T07:10:11.320Z"}}, {"model": "api.product", "pk": 9, "fields": {"user": 1, "name": "Wireless Noise Cancelling Headphones", "image": "headphones_ai.png", "brand": "AudioMax", "category": 3, "description": "Premium wireless headphones with industry-leading noise cancellation.", "rating": "4.80", "numReviews": 120, "price": "299.99", "countInStock": 15, "createdAt": "2026-01-07T05:03:08.691Z"}}, {"model": "api.product", "pk": 10, "fields": {"user": 1, "name": "Smart Watch Series X", "image": "smartwatch_ai.png", "brand": "TechWise", "category": 3, "description": "Advanced fitness tracking and notifications on your wrist.", "rating": "4.50", "numReviews": 85, "price": "199.50", "countInStock": 25, "createdAt": "2026-01-07T05:03:08.730Z"}}, {"model": "api.product", "pk": 11, "fields": {"user": 1, "name": "Portable Bluetooth Speaker", "image": "speaker_ai.png", "brand": "SonicBoom", "category": 3, "description": "Waterproof portable speaker with 20 hours of battery life.", "rating": "4.20", "numReviews": 45, "price": "79.99", "countInStock": 40, "createdAt": "2026-01-07T05:03:08.751Z"}}, {"model": "api.product", "pk": 12, "fields": {"user": 1, "name": "Classic Denim Jacket", "image": "jacket_ai.png", "brand": "UrbanStyle", "category": 4, "description": "A timeless denim jacket for every season.", "rating": "4.60", "numReviews": 30, "price": "89.00", "countInStock": 10, "createdAt": "2026-01-07T05:03:08.770Z"}}, {"model": "api.product", "pk": 13, "fields": {"user": 1, "name": "Minimalist White T-Shirt", "image": "tshirt_ai.png", "brand": "BasicNeeds", "category": 4, "description": "High-quality 100% cotton white tee.", "rating": "4.90", "numReviews": 210, "price": "24.99", "countInStock": 100, "createdAt": "2026-01-07T05:03:08.789Z"}}, {"model": "api.product", "pk": 14, "fields": {"user": 1, "name": "Retro High-Top Sneakers", "image": "shoes-1_qVvtB2N_StO0S7C.jpg", "brand": "Stride", "category": 5, "description": "Iconic high-top design with premium leather finish.", "rating": "4.70", "numReviews": 65, "price": "149.99", "countInStock": 8, "createdAt": "2026-01-07T05:03:08.808Z"}}, {"model": "api.product", "pk": 15, "fields": {"user": 1, "name": "Lightweight Running Shoes", "image": "shoes-2.jpg", "brand": "Velocity", "category": 5, "description": "Breathable mesh upper with ultra-responsive cushioning.", "rating": "4.40", "numReviews": 42, "price": "110.00", "countInStock": 20, "createdAt": "2026-01-07T05:03:08.828Z"}}, {"model": "api.product", "pk": 16, "fields": {"user": 1, "name": "Leather Minimalist Wallet", "image": "wallet.jpg", "brand": "Hide & Seek", "category": 6, "description": "Slim leather wallet with RFID protection.", "rating": "4.80", "numReviews": 95, "price": "45.00", "countInStock": 50, "createdAt": "2026-01-07T05:03:08.848Z"}}, {"model": "api.product", "pk": 17, "fields": {"user": 1, "name": "Premium Polarized Sunglasses", "image": "glasses-1.jpg", "brand": "ClearView", "category": 6, "description": "Classic aviator style with UV400 protection.", "rating": "4.50", "numReviews": 28, "price": "125.00", "countInStock": 12, "createdAt": "2026-01-07T05:03:08.872Z"}}, {"model": "api.product", "pk": 18, "fields": {"user": 1, "name": "Modern Ceramic Vase", "image": "Modern Ceramic Verse.jpg", "brand": "Artisana", "category": 7, "description": "Handcrafted minimalist ceramic vase for modern interiors.", "rating": "4.30", "numReviews": 18, "price": "35.50", "countInStock": 15, "createdAt": "2026-01-07T05:03:08.894Z"}}, {"model": "api.product", "pk": 19, "fields": {"user": 1, "name": "Scented Soy Wax Candle", "image": "Wax Candle.jpg", "brand": "Lumina", "category": 7, "description": "Long-lasting lavender scented candle in a glass jar.", "rating": "4.70", "numReviews": 52, "price": "19.99", "countInStock": 60, "createdAt": "2026-01-07T05:03:08.914Z"}}, {"model": "api.order", "pk": 1, "fields": {"user": 2, "paymentMethod": "PayPal", "taxPrice": "72.00", "shippingPrice": "0.00", "totalPrice": "552.00", "isPaid": false, "paidAt": null, "isDelivered": false, "deliveredAt": null, "createdAt": "2026-01-07T04:39:34.648Z"}}, {"model": "api.order", "pk": 2, "fields": {"user": 2, "paymentMethod": "PayPal", "taxPrice": "72.00", "shippingPrice": "0.00", "totalPrice": "552.00", "isPaid": false, "paidAt": null, "isDelivered": false, "deliveredAt": null, "createdAt": "2026-01-07T04:39:52.615Z"}}, {"model": "api.order", "pk": 3, "fields": {"user": 2, "paymentMethod": "PayPal", "taxPrice": "72.00", "shippingPrice": "0.00", "totalPrice": "552.00", "isPaid": false, "paidAt": null, "isDelivered": false, "deliveredAt": null, "createdAt": "2026-01-07T04:40:56.705Z"}}, {"model": "api.orderitem", "pk": 1, "fields": {"product": 1, "order": 3, "name": "Kurtis", "qty": 4, "price": "120.00", "image": "/images/img-2.jpg"}}, {"model": "api.shippingaddress", "pk": 1, "fields": {"order": 3, "address": "vapi", "city": "vapi", "postalCode": "396191", "country": "India", "shippingPrice": null}}]
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2026-01-05T11:11:35.778Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Kurtis",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2026-01-05T11:12:10.466Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kurtis",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2026-01-06T06:55:15.842Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Dupatta",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2026-01-06T06:57:05.304Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Dupattas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2026-01-06T07:06:22.116Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Dupattas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2026-01-06T07:06:32.977Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Dupattas-1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2026-01-06T07:07:26.475Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Cotton Suit with Dupatta",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2026-01-06T07:07:56.565Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Floral Cotton Kurti",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2026-01-06T07:08:36.591Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Floral Cotton Kurti-1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2026-01-06T07:09:13.450Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Printed Cotton Suit with Dupatta",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2026-01-06T07:09:19.869Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Printed Cotton Suit with Dupatta",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"CountInStock\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2026-01-06T07:10:11.325Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Printed Cotton Suit with Dupatta 01",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2026-01-06T07:11:00.360Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kurtis",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2026-01-07T04:41:23.962Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Kurtis",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2026-01-07T04:41:35.616Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "2026-01-07 04:40:56.705223+00:00",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2026-01-07T04:41:39.955Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "2026-01-07 04:39:52.615976+00:00",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2026-01-07T05:28:02.220Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Classic Denim Jacket",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2026-01-07T05:33:56.810Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Scented Soy Wax Candle",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2026-01-07T05:34:51.296Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Modern Ceramic Vase",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2026-01-07T05:42:10.924Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "Lightweight Running Shoes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2026-01-07T05:42:18.843Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "Leather Minimalist Wallet",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2026-01-07T05:42:28.583Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Scented Soy Wax Candle",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2026-01-07T05:43:02.894Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Modern Ceramic Vase",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2026-01-07T05:43:17.244Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "Lightweight Running Shoes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2026-01-07T05:53:29.633Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Floral Cotton Kurti-1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2026-01-07T05:53:49.083Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "Lightweight Running Shoes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2026-01-07T05:54:58.275Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "Leather Minimalist Wallet",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2026-01-07T05:55:23.956Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Modern Ceramic Vase",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2026-01-07T05:55:32.087Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Scented Soy Wax Candle",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2026-01-07T06:03:29.001Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Retro High-Top Sneakers",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2026-01-07T06:04:03.586Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Retro High-Top Sneakers",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2026-01-07T06:04:34.345Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Floral Cotton Kurti-1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$vTZtHIjEaMx59IIYl7CKUX$XBg99hbArs+ML4wmjbGMx4pBf8HGT45V5B8XpHx+TBQ=",
+            "last_login": "2026-01-02T07:20:57.154Z",
+            "is_superuser": true,
+            "username": "admin@123",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-01-02T07:20:40.926Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$i7NbFy8h9442183LsObLUq$efl75Rlir88bP/5CEi469YcV8bVh5GBN+Cmamjo1dAo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "goadnitesh4813@gmail.com",
+            "first_name": "Nitesh",
+            "last_name": "",
+            "email": "goadnitesh4813@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-01-06T07:21:52.133Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "qawzb2ii7brwkgzidk2uu4k296acywe4",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQAP_C2RChWxY8eu8byMKCVA1NSnsy_l1JetDrzGRewtO-Fb-3tPqZxUUocfplgeIj1S74TvW2yLjUbZ2D7Ik8bJPTwul5Pdq_QaFW-jY6l8eE4EAb0NkaVHjWaCMygtUWlCamwTjDEcZvMVh0yMFSzuC0eH8ArNE2tQ:1vbZSz:tOnfLj74uVC2m6k2o2OD42ZW_j08ytC-a4JjR-BiCAU",
+            "expire_date": "2026-01-16T07:20:57.169Z"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 1,
+        "fields": {
+            "name": "Kurtis",
+            "slug": "floral-cotton-kurti"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 2,
+        "fields": {
+            "name": "Dupatta",
+            "slug": ""
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 3,
+        "fields": {
+            "name": "Electronics",
+            "slug": "electronics"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 4,
+        "fields": {
+            "name": "Fashion",
+            "slug": "fashion"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 5,
+        "fields": {
+            "name": "Sneakers",
+            "slug": "sneakers"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 6,
+        "fields": {
+            "name": "Accessories",
+            "slug": "accessories"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 7,
+        "fields": {
+            "name": "Home Decor",
+            "slug": "home-decor"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "name": "Kurtis",
+            "image": "img-2.jpg",
+            "brand": null,
+            "category": 1,
+            "description": "test",
+            "rating": "8.00",
+            "numReviews": 10,
+            "price": "120.00",
+            "countInStock": 6,
+            "createdAt": "2026-01-05T11:12:10.462Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "name": "Dupattas",
+            "image": "Chiffon_Dupatta__White.jpg",
+            "brand": null,
+            "category": 2,
+            "description": "TEsting",
+            "rating": "8.00",
+            "numReviews": 0,
+            "price": "120.00",
+            "countInStock": 0,
+            "createdAt": "2026-01-06T06:57:05.301Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "name": "Dupattas-1",
+            "image": "Unstitched_Cotton_Dress_Material__Indigo.jpg",
+            "brand": null,
+            "category": 2,
+            "description": "Testing",
+            "rating": "8.00",
+            "numReviews": 0,
+            "price": "240.00",
+            "countInStock": 0,
+            "createdAt": "2026-01-06T07:06:22.112Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "name": "Cotton Suit with Dupatta",
+            "image": "Cotton_Suit_with_Dupatta.jpg",
+            "brand": null,
+            "category": 2,
+            "description": "Testing",
+            "rating": "5.00",
+            "numReviews": 0,
+            "price": "130.00",
+            "countInStock": 20,
+            "createdAt": "2026-01-06T07:07:26.472Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "name": "Floral Cotton Kurti",
+            "image": "Floral_Cotton_Kurti.jpg",
+            "brand": null,
+            "category": 1,
+            "description": "Testing",
+            "rating": "5.00",
+            "numReviews": 5,
+            "price": "340.00",
+            "countInStock": 6,
+            "createdAt": "2026-01-06T07:07:56.562Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "name": "Floral Cotton Kurti-1",
+            "image": "img-1_U7KAdoi.jpg",
+            "brand": null,
+            "category": 1,
+            "description": "Testing",
+            "rating": "5.00",
+            "numReviews": 0,
+            "price": "340.00",
+            "countInStock": 0,
+            "createdAt": "2026-01-06T07:08:36.587Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "name": "Printed Cotton Suit with Dupatta",
+            "image": "Printed_Cotton_Suit_with_Dupatta.jpg",
+            "brand": null,
+            "category": 2,
+            "description": "Printed Cotton Suit with Dupatta",
+            "rating": "5.00",
+            "numReviews": 5,
+            "price": "300.00",
+            "countInStock": 10,
+            "createdAt": "2026-01-06T07:09:13.447Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "name": "Printed Cotton Suit with Dupatta 01",
+            "image": "img-3.jpg",
+            "brand": null,
+            "category": 2,
+            "description": "Printed Cotton Suit with Dupatta -1",
+            "rating": "5.00",
+            "numReviews": 0,
+            "price": "300.00",
+            "countInStock": 10,
+            "createdAt": "2026-01-06T07:10:11.320Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "name": "Wireless Noise Cancelling Headphones",
+            "image": "headphones_ai.png",
+            "brand": "AudioMax",
+            "category": 3,
+            "description": "Premium wireless headphones with industry-leading noise cancellation.",
+            "rating": "4.80",
+            "numReviews": 120,
+            "price": "299.99",
+            "countInStock": 15,
+            "createdAt": "2026-01-07T05:03:08.691Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "name": "Smart Watch Series X",
+            "image": "smartwatch_ai.png",
+            "brand": "TechWise",
+            "category": 3,
+            "description": "Advanced fitness tracking and notifications on your wrist.",
+            "rating": "4.50",
+            "numReviews": 85,
+            "price": "199.50",
+            "countInStock": 25,
+            "createdAt": "2026-01-07T05:03:08.730Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "name": "Portable Bluetooth Speaker",
+            "image": "speaker_ai.png",
+            "brand": "SonicBoom",
+            "category": 3,
+            "description": "Waterproof portable speaker with 20 hours of battery life.",
+            "rating": "4.20",
+            "numReviews": 45,
+            "price": "79.99",
+            "countInStock": 40,
+            "createdAt": "2026-01-07T05:03:08.751Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "name": "Classic Denim Jacket",
+            "image": "jacket_ai.png",
+            "brand": "UrbanStyle",
+            "category": 4,
+            "description": "A timeless denim jacket for every season.",
+            "rating": "4.60",
+            "numReviews": 30,
+            "price": "89.00",
+            "countInStock": 10,
+            "createdAt": "2026-01-07T05:03:08.770Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 13,
+        "fields": {
+            "user": 1,
+            "name": "Minimalist White T-Shirt",
+            "image": "tshirt_ai.png",
+            "brand": "BasicNeeds",
+            "category": 4,
+            "description": "High-quality 100% cotton white tee.",
+            "rating": "4.90",
+            "numReviews": 210,
+            "price": "24.99",
+            "countInStock": 100,
+            "createdAt": "2026-01-07T05:03:08.789Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 14,
+        "fields": {
+            "user": 1,
+            "name": "Retro High-Top Sneakers",
+            "image": "shoes-1_qVvtB2N_StO0S7C.jpg",
+            "brand": "Stride",
+            "category": 5,
+            "description": "Iconic high-top design with premium leather finish.",
+            "rating": "4.70",
+            "numReviews": 65,
+            "price": "149.99",
+            "countInStock": 8,
+            "createdAt": "2026-01-07T05:03:08.808Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 15,
+        "fields": {
+            "user": 1,
+            "name": "Lightweight Running Shoes",
+            "image": "shoes-2.jpg",
+            "brand": "Velocity",
+            "category": 5,
+            "description": "Breathable mesh upper with ultra-responsive cushioning.",
+            "rating": "4.40",
+            "numReviews": 42,
+            "price": "110.00",
+            "countInStock": 20,
+            "createdAt": "2026-01-07T05:03:08.828Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 16,
+        "fields": {
+            "user": 1,
+            "name": "Leather Minimalist Wallet",
+            "image": "wallet.jpg",
+            "brand": "Hide & Seek",
+            "category": 6,
+            "description": "Slim leather wallet with RFID protection.",
+            "rating": "4.80",
+            "numReviews": 95,
+            "price": "45.00",
+            "countInStock": 50,
+            "createdAt": "2026-01-07T05:03:08.848Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 17,
+        "fields": {
+            "user": 1,
+            "name": "Premium Polarized Sunglasses",
+            "image": "glasses-1.jpg",
+            "brand": "ClearView",
+            "category": 6,
+            "description": "Classic aviator style with UV400 protection.",
+            "rating": "4.50",
+            "numReviews": 28,
+            "price": "125.00",
+            "countInStock": 12,
+            "createdAt": "2026-01-07T05:03:08.872Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 18,
+        "fields": {
+            "user": 1,
+            "name": "Modern Ceramic Vase",
+            "image": "Modern Ceramic Verse.jpg",
+            "brand": "Artisana",
+            "category": 7,
+            "description": "Handcrafted minimalist ceramic vase for modern interiors.",
+            "rating": "4.30",
+            "numReviews": 18,
+            "price": "35.50",
+            "countInStock": 15,
+            "createdAt": "2026-01-07T05:03:08.894Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 19,
+        "fields": {
+            "user": 1,
+            "name": "Scented Soy Wax Candle",
+            "image": "Wax Candle.jpg",
+            "brand": "Lumina",
+            "category": 7,
+            "description": "Long-lasting lavender scented candle in a glass jar.",
+            "rating": "4.70",
+            "numReviews": 52,
+            "price": "19.99",
+            "countInStock": 60,
+            "createdAt": "2026-01-07T05:03:08.914Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "paymentMethod": "PayPal",
+            "taxPrice": "72.00",
+            "shippingPrice": "0.00",
+            "totalPrice": "552.00",
+            "isPaid": false,
+            "paidAt": null,
+            "isDelivered": false,
+            "deliveredAt": null,
+            "createdAt": "2026-01-07T04:39:34.648Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "paymentMethod": "PayPal",
+            "taxPrice": "72.00",
+            "shippingPrice": "0.00",
+            "totalPrice": "552.00",
+            "isPaid": false,
+            "paidAt": null,
+            "isDelivered": false,
+            "deliveredAt": null,
+            "createdAt": "2026-01-07T04:39:52.615Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "paymentMethod": "PayPal",
+            "taxPrice": "72.00",
+            "shippingPrice": "0.00",
+            "totalPrice": "552.00",
+            "isPaid": false,
+            "paidAt": null,
+            "isDelivered": false,
+            "deliveredAt": null,
+            "createdAt": "2026-01-07T04:40:56.705Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "order": 3,
+            "name": "Kurtis",
+            "qty": 4,
+            "price": "120.00",
+            "image": "/images/img-2.jpg"
+        }
+    },
+    {
+        "model": "api.shippingaddress",
+        "pk": 1,
+        "fields": {
+            "order": 3,
+            "address": "vapi",
+            "city": "vapi",
+            "postalCode": "396191",
+            "country": "India",
+            "shippingPrice": null
+        }
+    }
+]
